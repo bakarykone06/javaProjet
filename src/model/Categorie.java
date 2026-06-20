@@ -15,10 +15,23 @@ public class Categorie {
     public int getId_categorie() {
         return this.id_categorie;
     }
+    
     public String getNom() {
         return this.nom;
     }
+   
     public String getDescription() {
         return this.description;
+    }
+
+    public void setId_categorie(int id_categorie) {
+        this.id_categorie = id_categorie;
+    }
+     public void setNom(String nom) {
+        this.nom = nom;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 }
